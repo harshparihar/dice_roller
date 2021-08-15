@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  turn: one
+  dice_sides: 1
+  roll_value: 1
+
+two:
+  turn: two
+  dice_sides: 1
+  roll_value: 1
