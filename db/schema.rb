@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 2021_08_15_044732) do
 
   create_table "users", force: :cascade do |t|
     t.string "name"
+    t.integer "roll_value", default: 0
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
