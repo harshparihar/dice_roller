@@ -1,6 +1,7 @@
 class User < ApplicationRecord
 
   has_many :turns, dependent: :destroy
+  has_many :rolls, through: :turns
 
   HAS_DICE_OF_FACES = [6, 8, 10, 20, 30, 50]
   MAX_DICE_ALLOWED_TO_ROLL = 3
